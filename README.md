@@ -1,20 +1,16 @@
-<<<<<<< HEAD
-# semeio
-=======
-# semeio_app
+**Semeio** é uma plataforma colaborativa voltada para o compartilhamento de áudios de crianças descrevendo os lugares onde vivem. O objetivo é valorizar a percepção infantil sobre os territórios, promovendo a escuta ativa e o mapeamento afetivo dos espaços.
 
-A new Flutter project.
+## ✨ Funcionalidades
 
-## Getting Started
+- ✅ Cadastro e login de usuários
+- ✅ Envio de áudios com descrições e localização
+- ✅ Mapa interativo com visualização dos áudios por região
+- ✅ CRUD completo para gerenciamento de áudios
+- ✅ Vistoria e aprovação dos áudios antes da publicação
 
-This project is a starting point for a Flutter application.
+## 🗺️ Como funciona
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> 263e23d (Initial commit)
+1. Usuários se cadastram na plataforma.
+2. Crianças (com ajuda de responsáveis ou mediadores) gravam e enviam áudios sobre seu território.
+3. Os áudios são submetidos à vistoria da equipe responsável.
+4. Após aprovação, os áudios aparecem no mapa interativo da plataforma.

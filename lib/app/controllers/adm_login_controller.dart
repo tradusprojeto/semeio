@@ -22,9 +22,11 @@ class AdmLoginController extends GetxController {
       if (user != null) {
         final role = authController.role;
         if (role == "admin") {
+          isLogging.value = false;
           Get.toNamed(Routes.admHome);
           return;
         } else {
+          isLogging.value = false;
           await supabaseService.signOut();
         }
       }
